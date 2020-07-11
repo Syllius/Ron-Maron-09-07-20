@@ -1,0 +1,32 @@
+.Login {
+    text-align: center;
+    margin-top: 150px;    
+    direction: ltr;
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    input {
+        text-align: center;
+        padding: 10px 15px;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    input[type="submit"], input[type="button"] {
+        width: 184px !important;
+        height: 39px !important;
+    }
+
+    .form-field {
+        .error {
+            color: red;
+            margin: 0;
+        }
+    }
+
+    .form-field:nth-of-type(3) {
+        min-height: 49px;
+    }
+}

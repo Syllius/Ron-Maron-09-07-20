@@ -1,0 +1,36 @@
+.Registeration {
+    text-align: center;
+    margin-top: 150px;    
+    direction: ltr;
+
+    h1 {
+        margin-bottom: 30px;
+    }
+
+    input {
+        text-align: center;
+        padding: 10px 15px;
+        width: 150px;
+        margin-bottom: 10px;
+    }
+
+    select {
+        margin-bottom: 10px;
+        text-align: center;
+        text-align-last:center;
+    }
+
+    input[type="submit"], input[type="button"], select {
+        width: 184px !important;
+        height: 39px !important;
+    }
+
+    .form-field:nth-of-type(6) {
+        min-height: 49px;
+
+        .error {
+            margin: 0;
+            color: red;
+        }
+    }
+}

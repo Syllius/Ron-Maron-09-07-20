@@ -1,0 +1,30 @@
+.TaskActions {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-evenly;
+
+    .TaskAction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // margin-left: 34px;
+
+        &.TaskActionRemove {
+            cursor: pointer;
+        }
+
+        &.TaskActionRemove img {
+            width: fit-content;
+        }
+
+        small {
+            font-size: 10px;
+            margin-top: 2px;
+            color: #4A4A4A;
+        }
+    }
+
+    a {
+        margin-left: 34px;
+    }
+}

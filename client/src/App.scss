@@ -1,0 +1,38 @@
+.App {
+  direction: rtl;
+  width: 1126px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 30px;
+
+  h1 {
+    color: #00B074;
+    font-size: 30px;
+  }
+}
+
+button, input[type="submit"], input[type="button"] {
+  font-family: 'Heebo' !important;
+    width: 151px !important;
+    height: 43px !important;
+    border: none;
+    background-color: #00B074;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 3px;
+    cursor: pointer;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:hover {
+        filter: brightness(115%);
+    }
+}
+
+a {
+  text-decoration: none;
+}
+

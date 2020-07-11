@@ -1,0 +1,67 @@
+.TaskItemCreate {
+
+    form {
+        width: 530px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 50px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 0px;
+        text-align:center;
+    }
+
+    label {
+        height: 20px;
+        width: 60px;
+        // margin-top: 10px;
+        margin-left: 40px;
+        text-align: right;
+        // margin-right:15px;
+        float:right;
+    }
+
+    input {
+        height: 20px;
+        width: 20px;
+        // margin-top: 10px;
+        margin: 0;
+    }
+
+    textarea {
+        // width: 400px;
+        width: 77%;
+        min-width: 77%;
+        height: 120px;
+        font-size: 18px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .form-field {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .error {
+            color: red;
+        }
+    }
+
+    .form-field:nth-of-type(2) {
+        margin-top: 20px;
+        justify-content: end;
+    }
+
+    .form-field:nth-of-type(3) {
+        min-height: 56px;
+        margin-top: 20px;
+    }
+
+    .form-field:nth-of-type(4) {
+        // margin-top: 60px;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+}
